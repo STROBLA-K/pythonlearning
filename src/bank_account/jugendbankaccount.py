@@ -1,5 +1,5 @@
 
-from bankaccount import BankAccount
+from .bankaccount import BankAccount
 
 class Jugendkonto(BankAccount):
     def abheben(self, betrag: float) -> None:
