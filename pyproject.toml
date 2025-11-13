@@ -11,7 +11,7 @@ dependencies = [
     "requests>=2.28.0",
 ]
 [project.urls]
-"Homepage" = 
+"Homepage" = "https://github.com/STROBLA-K/pythonlearning"
 
 [tool.setuptools.packages.find]
 where = ["src"]
