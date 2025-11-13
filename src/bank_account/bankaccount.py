@@ -29,3 +29,12 @@ class BankAccount:
 
         else:
             raise ValueError(f"Der Betrag '{betrag}' kann nicht abgehoben werden")
+    
+    def einzahlen(self, betrag: float) -> None:
+        if betrag > 0 :
+            self._kontostand += betrag
+            print(f"Es wurde €'{betrag}' eingezahlt")
+            self._transaktionen.append(("Einzahlung", betrag))
+        else:
+            print("Dieser Betrag kann nicht eingezahlt werden")
+    

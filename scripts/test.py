@@ -1,8 +1,4 @@
 from bank_account.bankaccount import BankAccount
-from bank_account.jugendbankaccount import Jugendkonto
-from bank_account.utils.einzahlen import einzahlen
-from bank_account.utils.abheben import abheben
-
 
 def main():
     konto = BankAccount("A.S.", 1, 1000)
